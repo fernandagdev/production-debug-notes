@@ -20,27 +20,26 @@ This repository documents real-world engineering interventions focused on fixing
 
 ## Engineering Approach
 
-1. Diagnose root cause instead of applying temporary fixes  
-2. Preserve existing production structure  
-3. Apply minimal, safe and scalable corrections  
-4. Validate impact on performance and usability  
+1. Diagnose root cause instead of temporary fixes  
+2. Preserve production structure  
+3. Apply minimal and scalable corrections  
+4. Validate performance and usability impact  
 
 ---
 
 ## Case Study — Mobile Layout Failure
 
 **Problem**  
-Critical layout breaking on mobile devices affecting user navigation.
+Layout breaking on mobile devices affecting navigation.
 
 **Root Cause**  
-CSS flex conflict and inconsistent spacing rules.
+CSS flex conflict and inconsistent spacing.
 
 **Solution**  
-Layout restructuring and responsive spacing normalization.
+Layout restructuring and responsive normalization.
 
 **Result**
-- Mobile usability restored  
-- Improved engagement metrics  
+- Mobile usability restored
 - Stable responsive behavior
 
 ---
@@ -48,32 +47,29 @@ Layout restructuring and responsive spacing normalization.
 ## Case Study — Performance Optimization
 
 **Problem**  
-Slow loading pages impacting SEO and conversion rate.
+Slow loading pages impacting SEO and conversion.
 
 **Root Cause**  
-Render-blocking assets and inefficient loading strategy.
+Render-blocking assets.
 
 **Solution**
 - Asset optimization
-- Deferred loading implementation
+- Deferred loading
 - Performance tuning
 
 **Result**
-- Faster page load time
-- Improved Lighthouse score
-- Better SEO performance
+- Faster loading time
+- Improved SEO performance
 
 ---
 
 ## Continuous Documentation
 
-New production cases are added continuously as part of ongoing engineering work.
+New production cases will be added continuously.
 
 ---
 
 ## Related Production Project
-
-Live production environment:
 
 Stackory Tech  
 https://stackorytech.com
